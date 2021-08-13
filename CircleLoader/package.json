@@ -1,0 +1,19 @@
+{
+  "name": "@redbus/circle-loader",
+  "version": "1.0.6",
+  "description": "Circle Loader Component",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Faiza N B",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": "16.5.0",
+    "styled-components": "^3.4.6"
+  }
+}
