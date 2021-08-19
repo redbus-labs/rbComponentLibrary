@@ -1,0 +1,1 @@
+export { BottomFixedBanner } from "./BottomModal";
