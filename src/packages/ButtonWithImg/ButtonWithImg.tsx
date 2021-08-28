@@ -16,7 +16,6 @@ export interface IButtonProps {
   buttonBoxShadow ?: string;
   font?: string;
   color?: string;
-  dataAutoid?: string;
   dataId?: string;
 }
 export interface IButtonTag {
@@ -84,13 +83,11 @@ const ButtonWithImg: React.FunctionComponent<IButtonProps> = (
     buttonHeight ,
     buttonBackColor ,
     buttonBoxShadow,
-    dataAutoid,
     dataId,
     font,
     color} = props;
   return (
     <ButtonTag
-      data-autoid={dataAutoid}
       data-id={dataId}
       onClick={onClick}
       buttonWidth={buttonWidth}

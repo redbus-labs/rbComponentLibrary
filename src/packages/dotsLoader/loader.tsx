@@ -17,7 +17,7 @@ const Spinner = styled.div`
   width: 70px;
   text-align: center;
   margin-bottom: 0;
-  background: white;
+  background: transparent;
   padding: 0.7em 0;
 `;
 

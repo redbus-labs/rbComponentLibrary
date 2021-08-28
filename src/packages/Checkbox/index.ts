@@ -1,1 +1,3 @@
-export {CheckBox as default, ICheckBoxProps, ICheckBoxState} from "./Checkbox";
+// @ts-nocheck
+export { CheckBox as default, ICheckBoxProps, ICheckBoxState } from "./checkbox";
+

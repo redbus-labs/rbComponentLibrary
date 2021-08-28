@@ -109,9 +109,9 @@ const AddIconBlock = styled.div`
 /* tslint:disable: jsx-no-lambda jsx-no-multiline-js max-line-length */
 const ButtonCTABlock: FunctionComponent<ICalendarWidgetProps> = (props) => (
     <CTABlock {...props}>
-        <Button data-autoid={props.todayLbl} onClick={() => props.todayTomClickHandler("tod")}>{props.todayLbl}</Button>
+        <Button onClick={() => props.todayTomClickHandler("tod")}>{props.todayLbl}</Button>
         <ButtonSeparator />
-        <Button data-autoid={props.tomorrowLbl} onClick={() => props.todayTomClickHandler("tom")}>{props.tomorrowLbl}</Button>
+        <Button onClick={() => props.todayTomClickHandler("tom")}>{props.tomorrowLbl}</Button>
     </CTABlock>
 );
 
@@ -120,7 +120,7 @@ export const CalendarWidgetV1: FunctionComponent<ICalendarWidgetProps> = (props)
     <CalendarWidget>
         <WidgetSubBlock  isReturnBlk={false}>
             <SubBlockHeading>{props.widgetMainLbl}</SubBlockHeading>
-            <SubBlockContent data-autoid={props.calendarOnwayDate} onClick={() => props.onwardDojClickHandler("onward")}>
+            <SubBlockContent onClick={() => props.onwardDojClickHandler("onward")}>
                 <CalendarIconSpan className={props.calendarIconFont} />
                 {props.formattedDoj}
             </SubBlockContent>
@@ -134,7 +134,7 @@ export const CalendarWidgetV1: FunctionComponent<ICalendarWidgetProps> = (props)
                 <SubBlockHeading>{props.roundTripLbl}</SubBlockHeading>
                 {props.removeRTDoj && props.formattedRTDoj && <RemoveRTIconBlock onClick={props.removeRTDojClickHandler} className={props.remDojIconFont} />}
             </HeadingBlock>
-            <SubBlockContent data-autoid={props.calendarRoundTripDate} onClick={() => { if (props.returnDojClickHandler) { props.returnDojClickHandler("return"); } }}>
+            <SubBlockContent onClick={() => { if (props.returnDojClickHandler) { props.returnDojClickHandler("return"); } }}>
                 {props.formattedRTDoj !== "" ? props.formattedRTDoj : <AddIconBlock className={props.addDojIconFont} />}
             </SubBlockContent>
             <SubBlockSubContent>{props.roundTripMsg}</SubBlockSubContent>

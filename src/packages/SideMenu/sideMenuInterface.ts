@@ -31,7 +31,6 @@ export interface IList {
    iconClass: string;
    displayText: string;
    link?: string;
-   dataAutoId?: string;
    newTab?: boolean;
    onClickHandler?: () => void;
    onClickEnabled?: boolean;

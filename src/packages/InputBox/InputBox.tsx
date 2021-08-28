@@ -4,7 +4,6 @@ import styled from "styled-components";
 export interface IInputProps {
   name?: string;
   id?: string;
-  autoId?: string;
   changHandler?: (param: any) => void;
   clickHandler?: () => void;
   bgColor?: string;
@@ -18,9 +17,11 @@ const InputOne = styled.input<IInputProps>`
   border-radius: 3px;
   background-color: ${(props) => props.bgColor};
   border: 1px solid #bababa;
-  width: 100%;
+  display: block;
+  width: 95%;
   line-height: 1.2em;
-  padding: 0.7em;
+  padding: 0.7em 0;
+  padding-left: 0.7em;
   color: ${(props) => props.color};
   font-size: 0.9em;
 `;
@@ -32,7 +33,6 @@ export const Input: FunctionComponent<IInputProps> = (props: IInputProps) => {
   const {
     name,
     id,
-    autoId,
     bgColor,
     inputType,
     placeholder,
@@ -53,7 +53,6 @@ export const Input: FunctionComponent<IInputProps> = (props: IInputProps) => {
       type={inputType}
       bgColor={bgColor}
       onChange={handleChangeEvent}
-      data-autoid={autoId}
       color={color}
       onClick={clickHandler}
     />

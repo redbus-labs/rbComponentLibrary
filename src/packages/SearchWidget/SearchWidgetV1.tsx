@@ -18,7 +18,6 @@ export interface ISearchWidgetProps {
   swapCitiesHandler: () => void;
   autoSrcsearchId?: string;
   autoDestSearchId?: string;
-  toggleDataAutoId?: string;
 }
 
 const StyledWidget = styled.div`
@@ -73,7 +72,6 @@ export const SearchWidgetV1: FunctionComponent<ISearchWidgetProps> = (props) => 
         <StyledToggleBtn
           onClick={props.swapCitiesHandler}
           aria-label={"swap image"}
-          data-autoid={props.toggleDataAutoId}
         >
           <ToggleIconImg src={props.toggleIconClass} />
         </StyledToggleBtn>

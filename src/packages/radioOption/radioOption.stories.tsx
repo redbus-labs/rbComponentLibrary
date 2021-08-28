@@ -3,7 +3,7 @@ import {Meta, Story} from "@storybook/react";
 import {RadioOption} from "./radioOption";
 
 export default {
-  title: 'Atoms/RadioOption',
+  title: 'Atoms/Radio Option',
   component: RadioOption,
 } as Meta;
 
@@ -15,8 +15,7 @@ singleOption.args = {
   radioimage:"/radio_btn_filled.svg",
   title:"Donate to redBus Cares",
   description:"Help support families of Bus drivers and helpers",
-  itemId:2,
-  selectedId:2
+  itemId:2
 };
 
 const Template2: Story<any> = (args: any) => <>

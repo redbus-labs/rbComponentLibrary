@@ -14,7 +14,6 @@ export const InputWithProps = Template.bind({});
 InputWithProps.args = {
     name:"Input Text",
     id:"inputId",
-    autoId:"autoId",
     inputType:"text",
     bgColor:"#FFFFFF",
     placeholder:"Placeholder Text",

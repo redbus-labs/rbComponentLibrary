@@ -3,7 +3,7 @@ import {Meta, Story} from "@storybook/react";
 import TextWithIcon from "./textWithIcon";
 
 export default {
-  title: 'Atoms/TextWithIcon',
+  title: 'Atoms/Text With Icon',
   component: TextWithIcon,
 } as Meta;
 

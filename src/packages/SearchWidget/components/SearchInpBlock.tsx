@@ -55,7 +55,7 @@ const SearchInpBlock: React.FunctionComponent<ISearchBlockProps> = (props) => {
             </div>
             <StyledInpWrapper>
             <img src={props.iconClass} />
-            <StyledInp  data-autoid={props.searchBoxId} data-placeholder={props.placeholder} onClick={() => props.openSuggestWindowHandler(props.id)}>{props.cityName}</StyledInp>
+            <StyledInp data-placeholder={props.placeholder} onClick={() => props.openSuggestWindowHandler(props.id)}>{props.cityName}</StyledInp>
             </StyledInpWrapper>
         </StyledInpDiv>
     );

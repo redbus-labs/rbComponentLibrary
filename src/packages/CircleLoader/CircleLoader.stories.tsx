@@ -3,7 +3,7 @@ import {Meta, Story} from "@storybook/react";
 import {CircleLoader} from "./CircleLoader";
 
 export default {
-    title: 'Atoms/CircleLoader',
+    title: 'Atoms/Circle Loader',
     component: CircleLoader,
 } as Meta;
 

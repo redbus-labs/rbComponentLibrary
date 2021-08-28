@@ -4,7 +4,7 @@ import { SearchWidgetV1 } from "./SearchWidgetV1";
 import { SearchWidgetV2 } from "./SearchWidgetV2";
 
 export default {
-  title: 'Molecules/SearchWidget',
+  title: 'Molecules/Search Widget',
   component: SearchWidgetV1,
 } as Meta;
 
@@ -23,7 +23,6 @@ searchWidgetVersion1.args = {
   toggleIconClass:"/toggle_sd.svg",
   sourceId:"sourceCity",
   destinationId:"destinationCity",
-  toggleDataAutoId:"toggle-button"
 };
 
 const Template2: Story<any> = (args: any) => <SearchWidgetV2 {...args} />;

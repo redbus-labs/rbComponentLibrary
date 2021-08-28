@@ -21,19 +21,22 @@ export interface IIInputProps {
   handleBlur?: () => void;
 }
 
-const InputWrap = styled.div`
+const InputWrap = styled.div<IIInputProps>`
   position: relative;
   background: #fff;
+  border-bottom: 1px solid ${(props) => props.borderColor};
 `;
 
 const InputOne = styled.input<IIInputProps>`
+  display: inline-block;
+  position: relative;
+  left: 1.5em;
   border: none;
   outline: none;
   background-color: ${ (props) => props.bgColor};
-  border-bottom: 1px solid ${(props) => props.borderColor};
-  width: 100%;
+  width: 80%;
   line-height: 1.2em;
-  padding: 0.7em 3em;
+  padding: 0.7em 0;
   font-size: 1em;
   font-weight: bold;
   color: #3e3e52;
@@ -56,9 +59,10 @@ const CancelImg = styled.img`
 `;
 
 const IconWrap = styled.img`
+  display: inline-block;
   width: 24px;
   height: 24px;
-  position: absolute;
+  position: relative;
   top: 8px;
   left: 6px;
 `;
@@ -82,7 +86,7 @@ export const Input: React.FunctionComponent<IIInputProps> = (
   return (
     <MainWrap boxShadow={boxShadow} margin={margin}>
       {label && <Label>{label}</Label>}
-      <InputWrap>
+      <InputWrap borderColor={borderColor}>
         {icon && <IconWrap src={icon} />}
         {fontIcon}
         <InputOne
@@ -95,7 +99,7 @@ export const Input: React.FunctionComponent<IIInputProps> = (
           onFocus={handleFocus}
           onBlur={handleBlur}
         />
-        {cancelImg && <CancelImg src={cancelImg} onClick={closeHandler} />}
+        <CancelImg src={cancelImg} onClick={closeHandler} />
         {cancelText}
       </InputWrap>
     </MainWrap>

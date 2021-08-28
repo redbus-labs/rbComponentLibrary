@@ -3,7 +3,7 @@ import {Meta, Story} from "@storybook/react";
 import RadioButton from "./RadioButton";
 
 export default {
-    title: 'Atoms/RadioButton',
+    title: 'Atoms/Radio Button',
     component: RadioButton,
 } as Meta;
 

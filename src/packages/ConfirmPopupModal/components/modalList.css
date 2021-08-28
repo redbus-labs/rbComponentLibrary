@@ -1,0 +1,53 @@
+.country_flag {
+    background-image: url(/country_sprite.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.country_flag_bgd {
+    width: 35px;
+    height: 23px;
+    background-position: -3px -1px;
+}
+
+.country_flag_col {
+    width: 2em;
+    height: 1.5em;
+    background-position: -40px -1px;
+}
+
+.country_flag_idn {
+    width: 2em;
+    height: 1.5em;
+    background-position: -3px -26px;
+}
+
+.country_flag_ind {
+    width: 2em;
+    height: 1.5em;
+    background-position: -40px -26px;
+}
+
+.country_flag_myr {
+    width: 2em;
+    height: 1.5em;
+    background-position: -3px -51px;
+}
+
+.country_flag_per {
+    width: 2em;
+    height: 1.5em;
+    background-position: -40px -51px;
+}
+
+.country_flag_sgp {
+    width: 2em;
+    height: 1.5em;
+    background-position: -76px -1px;
+}
+
+.country_flag_vnm {
+    width: 2em;
+    height: 1.5em;
+    background-position: -76px -26px;
+}

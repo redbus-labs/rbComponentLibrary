@@ -3,7 +3,7 @@ import {Meta, Story} from "@storybook/react";
 import HamburgerIcon from "./HamburgerIcon";
 
 export default {
-  title: 'Atoms/HamburgerIcon',
+  title: 'Atoms/Hamburger Icon',
   component: HamburgerIcon,
 } as Meta;
 

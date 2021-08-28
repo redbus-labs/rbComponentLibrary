@@ -3,7 +3,7 @@ import {Meta, Story} from "@storybook/react";
 import {CheckBox} from "./checkbox";
 
 export default {
-  title: 'Atoms/CheckBox',
+  title: 'Atoms/Check Box',
   component: CheckBox,
 } as Meta;
 

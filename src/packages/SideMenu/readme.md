@@ -20,7 +20,6 @@
 				iconClass: string;
 				displayText: string;
 				link?: string;
-				dataAutoId?: string;
 				newTab?: boolean;
 				onClickHandler?: () => void;
 				onClickEnabled?: boolean;
@@ -48,7 +47,6 @@
               iconClass: string;
               displayText: string;
               link?: string;
-              dataAutoId?: string;
               newTab?: boolean;
               onClickHandler?: () => void;
               onClickEnabled?: boolean;
@@ -73,12 +71,6 @@
           <td>string</td>
           <td>none (optional)</td>
           <td>link to redirect or value of href</td>
-        </tr>
-        <tr>
-          <td>dataAutoId</td>
-          <td>string</td>
-          <td>auto-default</td>
-          <td>data autoid for automation basically form as auto-displaytext</td>
         </tr>
         <tr>
           <td>newTab</td>

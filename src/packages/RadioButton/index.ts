@@ -1,3 +1,3 @@
-export { RadioButton as default } from "./RadioButton";
-export type { IRadioButtonProps } from "./RadioButton";
+// @ts-nocheck
+export { RadioButton as default, IRadioButtonProps } from "./RadioButton";
 

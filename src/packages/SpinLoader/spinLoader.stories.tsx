@@ -3,7 +3,7 @@ import {Meta, Story} from "@storybook/react";
 import {SpinLoader} from "./spinLoader";
 
 export default {
-  title: 'Atoms/SpinLoader',
+  title: 'Atoms/Spin Loader',
   component: SpinLoader,
 } as Meta;
 

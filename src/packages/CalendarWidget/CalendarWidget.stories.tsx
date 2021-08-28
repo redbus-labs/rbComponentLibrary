@@ -3,7 +3,7 @@ import {Meta, Story} from "@storybook/react";
 import {CalendarWidgetV1} from "./CalendarWidgetV1";
 
 export default {
-    title: 'Molecules/CalendarWidget',
+    title: 'Molecules/Calendar Widget',
     component: CalendarWidgetV1,
 } as Meta;
 

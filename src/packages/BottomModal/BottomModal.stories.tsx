@@ -3,7 +3,7 @@ import {Meta, Story} from "@storybook/react";
 import {BottomFixedBanner} from "./BottomModal";
 
 export default {
-  title: 'Atoms/BottomModal',
+  title: 'Atoms/Bottom Modal',
   component: BottomFixedBanner,
 } as Meta;
 

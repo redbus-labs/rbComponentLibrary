@@ -114,7 +114,6 @@ export const SideMenuBar = (props: ISideMenu) => {
                       : onLinkClick
                   }
                   target={listItem.newTab ? "_blank" : ""}
-                  data-autoid={listItem.dataAutoId}
                 >
                   <TextWithIcon
                     displayIcon={listItem.iconClass}
