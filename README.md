@@ -1,6 +1,4 @@
-<p align="center" style="font-weight:bold; font-size:1.5em;">
-  rbComponentLibrary
-</p>
+# rbComponentLibrary
 
 A common goal that is shared by all Frontend developers and teams everywhere is to be able to design and develop components that enable them to ship out their features with the focus of,
 
