@@ -1,4 +1,4 @@
-# Mweb Header component.
+# Header component
 
 <table>
     <thead>

@@ -1,4 +1,4 @@
-# Custom Hamburger menu icon component.
+# Custom Hamburger menu icon component
 
 <table>
     <thead>

@@ -259,8 +259,9 @@ export class Addons extends React.Component<IAddonsInterface, IAddonsSate> {
 }
 
 Addons.defaultProps = {
-DataAddons: null,
-currency: "₹",
-itemsOrder: null,
-Orientation: "row",
+  DataAddons: null,
+  currency: "₹",
+  Orientation: "row",
+  BackgroundAddon: "#fff",
+  BackgroundColourAddons: "#fff",
 };

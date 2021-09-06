@@ -1,4 +1,4 @@
-# Ratings Card component
+# Download Card Banner component
 
 <table>
     <thead>
@@ -11,40 +11,40 @@
     </thead>
     <tbody>
         <tr>
-            <td style="text-align:left;">route</td>
+            <td style="text-align:left;">heading</td>
             <td style="text-align:center;"><code>string</code></td>
             <td style="text-align:center;">Required</td>
-            <td style="text-align:left;">Route Travelled Info</td>
+            <td style="text-align:left;">Banner Heading</td>
         </tr>
         <tr>
-            <td style="text-align:left;">date</td>
+            <td style="text-align:left;">subText</td>
             <td style="text-align:center;"><code>string</code></td>
             <td style="text-align:center;">Required</td>
-            <td style="text-align:left;">Date of Travel</td>
+            <td style="text-align:left;">Banner Description</td>
         </tr>
         <tr>
-            <td style="text-align:left;">travels</td>
+            <td style="text-align:left;">imageUrl</td>
+            <td style="text-align:center;"><code>string</code></td>
+            <td style="text-align:center;">Optional</td>
+            <td style="text-align:left;">Download image url</td>
+        </tr>
+        <tr>
+            <td style="text-align:left;">appleIcon</td>
+            <td style="text-align:center;"><code>string</code></td>
+            <td style="text-align:center;">Optional</td>
+            <td style="text-align:left;">Apple icon font</td>
+        </tr>
+        <tr>
+            <td style="text-align:left;">androidIcon</td>
+            <td style="text-align:center;"><code>string</code></td>
+            <td style="text-align:center;">Optional</td>
+            <td style="text-align:left;">Android icon font</td>
+        </tr>
+        <tr>
+            <td style="text-align:left;">browserLink</td>
             <td style="text-align:center;"><code>string</code></td>
             <td style="text-align:center;">Required</td>
-            <td style="text-align:left;">Operator name</td>
-        </tr>
-        <tr>
-            <td style="text-align:left;">onClick</td>
-            <td style="text-align:center;"><code>function</code></td>
-            <td style="text-align:center;">Required</td>
-            <td style="text-align:left;">Click handler</td>
-        </tr>
-        <tr>
-            <td style="text-align:left;">width</td>
-            <td style="text-align:center;"><code>string</code></td>
-            <td style="text-align:center;">Required</td>
-            <td style="text-align:left;">Width of the card</td>
-        </tr>
-        <tr>
-            <td style="text-align:left;">height</td>
-            <td style="text-align:center;"><code>string</code></td>
-            <td style="text-align:center;">Required</td>
-            <td style="text-align:left;">Height of the card</td>
+            <td style="text-align:left;">Target window URL</td>
         </tr>
     </tbody>
 </table>

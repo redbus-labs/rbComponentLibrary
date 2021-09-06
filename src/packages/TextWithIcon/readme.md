@@ -1,12 +1,12 @@
-# Text With Icon component.
+# Text With Icon component
 
 <table class="table table-bordered table-striped">
     <thead>
     <tr>
-        <th style="width: 100px;">name</th>
-        <th style="width: 50px;">type</th>
-        <th style="width: 50px;">default</th>
-        <th>description</th>
+        <th style="width: 100px;">Attributes</th>
+        <th style="width: 50px;">Type</th>
+        <th style="width: 50px;">Default</th>
+        <th>Description</th>
     </tr>
     </thead>
     <tbody>

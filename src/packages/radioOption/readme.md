@@ -1,4 +1,4 @@
-# Radio Option Tuple component.
+# Radio Option Tuple component
 
 <table>
     <thead>

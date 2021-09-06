@@ -7,6 +7,7 @@ export interface ITicketDeailsProps {
   busDetails: IBusDetailsProps;
 }
 
+//@ts-ignore
 export { IBusDetailsProps, IPassengerDetailsProps, ISeatDetails };
 
 export const TicketDetails: FunctionComponent<ITicketDeailsProps> = (props: ITicketDeailsProps) => {

@@ -1,4 +1,4 @@
-# Spin Loader component.
+# Spin Loader component
 
 <table>
     <thead>

@@ -47,7 +47,7 @@ export const Input: FunctionComponent<IInputProps> = (props: IInputProps) => {
 
   return (
     <InputOne
-      name={name}
+      value={name}
       id={id}
       placeholder={placeholder}
       type={inputType}

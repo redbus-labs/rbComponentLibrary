@@ -1,4 +1,4 @@
-# Confirm Modal Component.
+# Confirm Modal Component
 
 Props for ModalWithList : 
 <table>

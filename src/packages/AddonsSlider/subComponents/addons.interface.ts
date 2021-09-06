@@ -1,7 +1,6 @@
 export interface IAddonsInterface {
     DataAddons?: any;
     currency?: any;
-    itemsOrder?: any;
     Orientation?: string;
     BackgroundAddon?: string;
     marginColumn?: string;
@@ -17,7 +16,6 @@ export interface IAddonsInterface {
     ViewTnC?: string;
     ViewCancelPolicy?: string;
     AddonsCount?: (event: any, uuid: any, index: any) => void;
-    AddonsCountCustom?: () => void;
     OnViewClick?: (uuid: any) => void;
     OnCrossClick?: (uuid: any) => void;
 

@@ -10,12 +10,9 @@ export interface IIInputProps {
   icon?: any;
   label?: string;
   handleChange?: () => void;
-  index?: number;
   value?: string;
   borderColor?: string;
-  cancelText?: any;
   boxShadow?: any;
-  fontIcon?: any;
   margin?: any;
   handleFocus?: () => void;
   handleBlur?: () => void;
@@ -81,14 +78,13 @@ const MainWrap = styled.div<any>`
 `;
 
 export const Input: React.FunctionComponent<IIInputProps> = (
-  { placeholderText, inputType, bgColor, closeHandler, cancelImg, boxShadow, margin,
-    fontIcon, cancelText, icon, handleChange, label, value, borderColor, handleFocus, handleBlur}) => {
+  { placeholderText, inputType, bgColor, closeHandler, cancelImg, boxShadow, margin
+    , icon, handleChange, label, value, borderColor, handleFocus, handleBlur}) => {
   return (
     <MainWrap boxShadow={boxShadow} margin={margin}>
       {label && <Label>{label}</Label>}
       <InputWrap borderColor={borderColor}>
         {icon && <IconWrap src={icon} />}
-        {fontIcon}
         <InputOne
           value={value}
           onChange={handleChange}
@@ -100,7 +96,6 @@ export const Input: React.FunctionComponent<IIInputProps> = (
           onBlur={handleBlur}
         />
         <CancelImg src={cancelImg} onClick={closeHandler} />
-        {cancelText}
       </InputWrap>
     </MainWrap>
   );

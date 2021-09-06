@@ -1,4 +1,4 @@
-# Fixed Nav component.
+# Fixed Nav component
 
 <table>
     <thead>

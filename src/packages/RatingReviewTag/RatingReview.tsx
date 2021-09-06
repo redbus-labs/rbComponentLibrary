@@ -5,7 +5,6 @@ export interface IRatingProps {
   ratingText?: number;
   fontSize?: number;
   width?: number;
-  radius?: number;
   bgColor?: string;
   reviewText?: number;
   bgColRating?: string;

@@ -3,7 +3,7 @@ import {Meta, Story} from "@storybook/react";
 import {CardBanner} from "./cardBanner";
 
 export default {
-  title: 'Atoms/Card Banner',
+  title: 'Atoms/DownLoad App Card Banner',
   component: CardBanner,
 } as Meta;
 

@@ -1,4 +1,4 @@
-# NavList component.
+# NavList component
 
 <table>
     <thead>

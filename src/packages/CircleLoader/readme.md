@@ -1,4 +1,4 @@
-# Circle Loader component.
+# Circle Loader component
 
 <table>
     <thead>
