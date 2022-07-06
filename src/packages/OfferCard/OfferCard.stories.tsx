@@ -14,8 +14,8 @@ const Template: Story<IOfferCardProps> = (args) => <OfferCard {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
-	primaryText: "",
-	secondaryText: "",
+	primaryText: "Save up to Rs 150",
+	secondaryText: "Validity: 02 Apr To 31 May",
 	offerCode: "Use code CODE only on App",
-	imgUrl: "/banner.png",
+	imgUrl: "/offer.png",
 };

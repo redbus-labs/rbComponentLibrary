@@ -84,7 +84,7 @@ export class ProceedButtonComponent extends React.Component<IProceedComponentPro
             expandBreakUp: value,
         });
     }
-    public override render() {
+    public render() {
       const {
         locale,
         finalAmt,

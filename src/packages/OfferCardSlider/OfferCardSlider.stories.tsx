@@ -14,22 +14,22 @@ const Template: Story<any> = (args) => <OfferCardSlider {...args} />;
 
 const OfferCardSliderData = [
     {
-        primaryText: "",
-        secondaryText: "",
-        offerCode: "",
-        imgUrl: "/banner.png",
+        primaryText: "Save up to Rs 150 ",
+        secondaryText: "Validity: 02 Apr To 31 May",
+        offerCode: "Use code CODE",
+        imgUrl: "/offer.png",
     },
     {
-        primaryText: "",
-        secondaryText: "",
-        offerCode: "",
-        imgUrl: "/banner.png",
+        primaryText: "Save up to Rs 150 ",
+        secondaryText: "Validity: 02 Apr To 31 May",
+        offerCode: "Use code CODE",
+        imgUrl: "/offer.png",
     },
     {
-        primaryText: "",
-        secondaryText: "",
-        offerCode: "",
-        imgUrl: "/banner.png",
+        primaryText: "Save up to Rs 150 ",
+        secondaryText: "Validity: 02 Apr To 31 May",
+        offerCode: "Use code CODE",
+        imgUrl: "/offer.png",
     },
 ];
 
