@@ -1,0 +1,1 @@
+export { ProceedButtonComponent } from "./ProceedComponent";

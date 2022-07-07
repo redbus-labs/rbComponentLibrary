@@ -1,0 +1,1 @@
+export { RatingsPlaceholder } from "./ratingsPlaceholder";

@@ -1,0 +1,1 @@
+export { PromotionsCard } from "./promotionsCard";
